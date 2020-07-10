@@ -6,3 +6,4 @@ Public files for 'Solving Satisfaction Problems using LNS' paper of CP2020.
 - Models
 - Instances
 - Link to gecode repo
+- Report tsptw objective value
