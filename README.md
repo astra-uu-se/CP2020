@@ -2,15 +2,14 @@
 Public files for 'Solving Satisfaction Problems using LNS' paper of CP2020.
 
 
-# Todo:
-- Models
-- Instances
-- Link to gecode repo
-- Report tsptw objective value
+## Evaluation
+The models, data files, flattened files, and solver ouput can be found in the `benchmarks` folder.
 
 
-## Hardware
-For the evaluation, the following hardware was used:
+## Implementation
+The implementation of non-failing propagators in Gecode can be found at (https://github.com/GustavBjordal/gecode-subsuming).
+Note that during devlopment, non-failing propagators were called 'self-subsuming' propagators, hence the naming of flags, comments, and output may refer to 'self-subsuming propagators' or just 'subsuming propagators'.
 
-> Linux Ubuntu 18.04 (64bit) on an Intel Xeon E5520 of 2.27 GHz, with 4 processors of 4 cores each, with 24 GB RAM and an 8 MB L2 cache.
-> Note that we only ran Gecode on a single core for our experiments.
+
+## Todo:
+- Report new best known tsptw objective value
